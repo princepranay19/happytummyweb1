@@ -225,6 +225,14 @@
       <script src="js/custom.js"></script>
 
       <script>
+              // Simple warning on page load
+              window.onload = function() {
+        alert("****Order acceptance Timings****\n\n" +
+              "Morning - from 8:00am to 11:00am\n" +
+              "Evening - from 6:00pm to 9pm\n\n" +
+              "***Thank you for choosing us..!!***\n" +
+              "🥣 Happy to Serve! 😊");
+    };
          function whatsapp() {
              var name = document.getElementById("name").value;
              var phone = document.getElementById("phone").value;
