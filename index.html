@@ -374,14 +374,6 @@
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
 
-      // Simple warning on page load
-              window.onload = function() {
-        alert("****Order acceptance Timings****\n\n" +
-              "Morning - from 8:00am to 11:00am\n" +
-              "Evening - from 6:00pm to 9pm\n\n" +
-              "***Thank you for choosing us..!!***\n" +
-              "🥣 Happy to Serve! 😊");
-    };
       <script>
          function whatsapp() {
              var name = document.getElementById("name").value;
@@ -400,6 +392,14 @@
              event.preventDefault(); // Prevent the default form submission
              whatsapp(); // Call the whatsapp function
          }
+            // Simple warning on page load
+        window.onload = function() {
+            alert("****Order acceptance Timings****\n\n" +
+                  "Morning - from 8:00am to 11:00am\n" +
+                  "Evening - from 6:00pm to 9pm\n\n" +
+                  "***Thank you for choosing us..!!***\n" +
+                  "🥣 Happy to Serve! 😊");
+        };
       </script>
 
    </body>
