@@ -29,6 +29,16 @@
    </head>
    <!-- body -->
    <body class="main-layout">
+      <script>
+                 // Simple warning on page load
+        window.onload = function() {
+            alert("****Order acceptance Timings****\n\n" +
+                  "Morning - from 8:00am to 11:00am\n" +
+                  "Evening - from 6:00pm to 9pm\n\n" +
+                  "***Thank you for choosing us..!!***\n" +
+                  "🥣 Happy to Serve! 😊");
+        };
+      </script>
       <!-- loader  -->
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="#" /></div>
@@ -310,10 +320,6 @@
                            </div>
                         </div>
                      </form>
-
-
-
-
                      <!-- <form action="js/form1.js" method="post" id="request" class="main_form">
                         <div class="row">
                            <div class="col-md-12 ">
@@ -373,7 +379,6 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
-
       <script>
          function whatsapp() {
              var name = document.getElementById("name").value;
@@ -387,20 +392,10 @@
                  + "I want : " + encodeURIComponent(message);
              window.open(whatsappurl, "_blank").focus();
          }
-      
          function handleFormSubmit(event) {
              event.preventDefault(); // Prevent the default form submission
              whatsapp(); // Call the whatsapp function
          }
-            // Simple warning on page load
-        window.onload = function() {
-            alert("****Order acceptance Timings****\n\n" +
-                  "Morning - from 8:00am to 11:00am\n" +
-                  "Evening - from 6:00pm to 9pm\n\n" +
-                  "***Thank you for choosing us..!!***\n" +
-                  "🥣 Happy to Serve! 😊");
-        };
       </script>
-
    </body>
 </html>
